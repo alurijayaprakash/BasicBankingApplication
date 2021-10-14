@@ -1,0 +1,61 @@
+Bank created and { name='Prakash', branchName='Hyderabad', address='Telangana', ifscCode='SBIN000905', micrCode='9365836', Accounts=
+'Account Number: 30112345001 balance in your Current account is: 1000.00
+'}
+Account created and Account Number: 301012 balance in your Current account is: 500.00
+Account created and Account Number: 301011 balance in your Savings account is: 1000.00
+Account Number: 301012 balance in your Current account is: 0.00
+Account Number: 301011 balance in your Savings account is: 1010.00
+Account Number: 301012 balance in your Current account is: 200.00
+Account Number: 301012 balance in your Current account is: 400.00
+Account Number: 301012 balance in your Current account is: 600.00
+Account Number: 301011 balance in your Savings account is: 11010.00
+Account Number: 301011 balance in your Savings account is: 9798.00
+Invalid Account Number... Please try again...
+Account Number: 30112345001 balance in your Current account is: 743.75
+Account Number: 30112345001 balance in your Current account is: 243.75
+Account Number: 301012 balance in your Current account is: 800.00
+Account Number: 301011 balance in your Savings account is: 19798.00
+Account Number: 301011 balance in your Savings account is: 9597.90
+Account Number: 30112345001 balance in your Current account is: -6.25
+Amount can't be negative or 0.
+Account created and Account Number: 301013 balance in your Checking account is: 1000.00
+Amount can't be negative or 0.
+Account Number: 301013 balance in your Checking account is: 800.00
+Account Number: 30112345001 balance in your Current account is: 93.75
+Account Number: 301012 balance in your Current account is: -9200.00
+Account Number: 301012 balance in your Current account is: 800.00
+Account Number: 30112345001 balance in your Current account is: 193.75
+Account Number: 301013 balance in your Checking account is: 6600.00
+Account Number: 301013 balance in your Checking account is: 4000.00
+Account Number: 30112345001 balance in your Current account is: 293.75
+Account Number: 30112345001 balance in your Current account is: 50293.75
+Account Number: 301011 balance in your Savings account is: 8597.90
+Account Number: 301012 balance in your Current account is: -9200.00
+Amount can't be negative or 0.
+Insufficient funds to withdraw the amount.
+Account Number: 30112345001 balance in your Current account is: 108293.75
+Account Number: 30112345001 balance in your Current account is: 108393.75
+Account Number: 301013 balance in your Checking account is: 9800.00
+Account Number: 30112345001 balance in your Current account is: 108493.75
+Account Number: 301013 balance in your Checking account is: 29600.00
+Account Number: 30112345001 balance in your Current account is: 109533.75
+Account Number: 30112345001 balance in your Current account is: 114533.75
+Account Number: 30112345001 balance in your Current account is: 168533.75
+Account Number: 30112345001 balance in your Current account is: 168553.75
+----------Sort by Amount----------
+HereAccount Number: 301012 balance in your Current account is: -9200.00
+HereAccount Number: 301011 balance in your Savings account is: 8597.90
+HereAccount Number: 301013 balance in your Checking account is: 29600.00
+HereAccount Number: 30112345001 balance in your Current account is: 168553.75
+----------List of NON-Performing Accounts----------
+HereAccount Number: 301011 balance in your Savings account is: 8597.90
+HereAccount Number: 301012 balance in your Current account is: -9200.00
+HereAccount Number: 301013 balance in your Checking account is: 29600.00
+HereAccount Number: 30112345001 balance in your Current account is: 168553.75
+Following are the bank details: 
+{ name='Prakash', branchName='Hyderabad', address='Telangana', ifscCode='SBIN000905', micrCode='9365836', Accounts=
+'Account Number: 301011 balance in your Savings account is: 8597.90
+Account Number: 301012 balance in your Current account is: -9200.00
+Account Number: 301013 balance in your Checking account is: 29600.00
+Account Number: 30112345001 balance in your Current account is: 168553.75
+'}

@@ -1,0 +1,36 @@
+bank 30112345001,Prakash,Hyderabad,Telangana,prakash@msitprogram.net,999999999,Telangana,SBIN000905,009365836
+currentaccount 30012346,Sedgewick,11-02-1967,Princeton,sedgewick@gmail.com,+0017878776767,500.0
+savingsaccount 30012345,Grimpson,11-02-1975,Pittsburgh,grimpson@gmail.com,+0017878776769,1000.0
+debit 30012346 500.0
+calculateInterest
+credit 30012346 200.0
+credit 30012345 10000.0
+debit 30012345 1212.0
+credit 30012345 10000.0
+credit 30012345 10000.0
+credit 30012345 10000.0
+credit 30012345 10000.0
+credit 30012345 10000.0
+debit 301013 250.0
+debit 30112345001 256.25
+credit 30012346 200.0
+credit 30012345 10000.0
+debit 30012345 10200.1
+debit 30112345001 250.0
+credit 30012345 -100
+checkingaccount 301013,Hari,11-02-1975,Pittsburgh,grimpson@gmail.com,+0017878776769,1000.0
+debit 301013 -100
+debit 301013 100
+debit 30012346 10000
+credit 30012346 10000
+credit 301013 3000
+debit 301013 2500
+credit 30112345001 5000000
+debit 30012345 1000
+debit 30012346 10000
+debit 30012345 0
+debit 301013 10000
+credit 301013 3000
+credit 301013 10000
+sortbyamount
+nonperformingaccounts

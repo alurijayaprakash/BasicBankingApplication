@@ -1,0 +1,58 @@
+Bank created and { name='Prakash', branchName='Hyderabad', address='Telangana', ifscCode='SBIN000905', micrCode='9365836', Accounts=
+'Account Number: 30112345001 balance in your Current account is: 1000.00
+'}
+Account created and Account Number: 30012346 balance in your Current account is: 500.00
+Account created and Account Number: 30012345 balance in your Savings account is: 1000.00
+Account Number: 30012346 balance in your Current account is: 0.00
+Account Number: 30012345 balance in your Savings account is: 1010.00
+Account Number: 30012346 balance in your Current account is: 200.00
+Account Number: 30012345 balance in your Savings account is: 11010.00
+Account Number: 30012345 balance in your Savings account is: 9798.00
+Account Number: 30012345 balance in your Savings account is: 19798.00
+Account Number: 30012345 balance in your Savings account is: 29798.00
+Account Number: 30012345 balance in your Savings account is: 39798.00
+Account Number: 30012345 balance in your Savings account is: 49798.00
+Account Number: 30012345 balance in your Savings account is: 59798.00
+Invalid Account Number... Please try again...
+Account Number: 30112345001 balance in your Current account is: 743.75
+Account Number: 30012346 balance in your Current account is: 400.00
+Account Number: 30012345 balance in your Savings account is: 69798.00
+Account Number: 30012345 balance in your Savings account is: 59597.90
+Account Number: 30112345001 balance in your Current account is: 493.75
+Amount can't be negative or 0.
+Account created and Account Number: 301013 balance in your Checking account is: 1000.00
+Amount can't be negative or 0.
+Account Number: 301013 balance in your Checking account is: 800.00
+Account Number: 30112345001 balance in your Current account is: 593.75
+Account Number: 30012346 balance in your Current account is: -9600.00
+Account Number: 30012346 balance in your Current account is: 400.00
+Account Number: 30112345001 balance in your Current account is: 693.75
+Account Number: 301013 balance in your Checking account is: 6600.00
+Account Number: 301013 balance in your Checking account is: 4000.00
+Account Number: 30112345001 balance in your Current account is: 793.75
+Account Number: 30112345001 balance in your Current account is: 5000793.75
+Account Number: 30012345 balance in your Savings account is: 58597.90
+Account Number: 30012346 balance in your Current account is: -9600.00
+Amount can't be negative or 0.
+Insufficient funds to withdraw the amount.
+Account Number: 30112345001 balance in your Current account is: 5000893.75
+Account Number: 301013 balance in your Checking account is: 9800.00
+Account Number: 30112345001 balance in your Current account is: 5000993.75
+Account Number: 301013 balance in your Checking account is: 29600.00
+----------Sort by Amount----------
+HereAccount Number: 30012346 balance in your Current account is: -9600.00
+HereAccount Number: 301013 balance in your Checking account is: 29600.00
+HereAccount Number: 30012345 balance in your Savings account is: 58597.90
+HereAccount Number: 30112345001 balance in your Current account is: 5000993.75
+----------List of NON-Performing Accounts----------
+HereAccount Number: 30012346 balance in your Current account is: -9600.00
+HereAccount Number: 301013 balance in your Checking account is: 29600.00
+HereAccount Number: 30112345001 balance in your Current account is: 5000993.75
+HereAccount Number: 30012345 balance in your Savings account is: 58597.90
+Following are the bank details: 
+{ name='Prakash', branchName='Hyderabad', address='Telangana', ifscCode='SBIN000905', micrCode='9365836', Accounts=
+'Account Number: 30012346 balance in your Current account is: -9600.00
+Account Number: 301013 balance in your Checking account is: 29600.00
+Account Number: 30112345001 balance in your Current account is: 5000993.75
+Account Number: 30012345 balance in your Savings account is: 58597.90
+'}

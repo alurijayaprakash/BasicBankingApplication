@@ -8,8 +8,7 @@ public class Bank {
     private long micrCode;
     private CurrentAccount currentAccount;
     ArrayList<Account> listOfBankAccounts;
-    public Bank() {
-    }
+
 
     public Bank(String accountNumber, String name, String branchName, String contactAddress, String email, String phoneNumber, String branchAddress, String ifscCode, long micrCode) {
         this.name = name;
@@ -107,7 +106,6 @@ public class Bank {
         }
 
         if (account instanceof CheckingAccount) {
-            boolean flag = account.debit(amount);
             System.out.println(account);
             creditTransaction(this.currentAccount.getAccountNumber(), CheckingAccount.fees);
             return true;

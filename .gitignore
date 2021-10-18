@@ -1,0 +1,3 @@
+# Ignore Compiled class files in All Directories
+*.class
+*.pdf

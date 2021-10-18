@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.Arrays;
 import java.util.*;
 
 /**
@@ -17,7 +16,6 @@ public class AccountTest {
 	 * arguments at the time of executing this program.
 	 */
     public static void main(String[] args) {
-		int count = 0;
         Scanner scan = new Scanner(System.in);
         String newtoken[] = scan.nextLine().split(" ");
 		newtoken = newtoken[1].split(",");
@@ -92,123 +90,8 @@ public class AccountTest {
 					break;
 			}
 		}
+		scan.close();
 		System.out.println("Following are the bank details: \n" + bank);
     }
 
-	// /**
-	//  * The main method is used to test this Savings Account class.
-	//  * @param savingsAC We are passing Savings Accout Object
-	//  * @param scan we are passing scanner 
-	//  */
-
-
-    // public static void testSavingsAccount(SavingsAccount savingsAC, Scanner scan) {        
-    //     while (scan.hasNextLine()) {
-    //         String tokens[] = scan.nextLine().split(" ");
-    //         switch (tokens[0]) {
-	// 			case "debit":
-	// 				try {
-	// 					boolean flag = savingsAC.debit(Double.parseDouble(tokens[1]));
-	// 					if (flag)
-	// 						System.out.println("After debit, " + savingsAC);
-	// 				} catch(Exception ex) {
-	// 					System.out.println(ex.getMessage());
-	// 				}
-	// 				break;
-	// 			case "credit":
-	// 				try {
-	// 					boolean flag = savingsAC.credit(Double.parseDouble(tokens[1]));
-	// 					if (flag)
-	// 						System.out.println("After credit, " + savingsAC);
-	// 				} catch(Exception ex) {
-	// 					System.out.println(ex.getMessage());
-	// 				}
-	// 				break;
-	// 			case "calculateInterest":
-	// 				try {
-	// 					boolean flag = savingsAC.calculateInterest();
-	// 					if (flag)
-	// 						System.out.println("After interest credited, " + savingsAC);
-	// 				} catch(Exception ex) {
-	// 					System.out.println(ex.getMessage());
-	// 				}
-	// 				break;
-    //             default:
-    //                 break;
-    //         }
-    //     }
-    //     scan.close();
-    // }
-
-	// /**
-	//  * The main method is used to test this Savings Account class.
-	//  * @param currentAC We are passing Current Accout Object
-	//  * @param scan we are passing scanner 
-	//  */
-
-
-    // public static void testCurrentAccount(CurrentAccount currentAC, Scanner scan) {
-    //     while (scan.hasNextLine()) {
-    //         String tokens[] = scan.nextLine().split(" ");
-    //         switch (tokens[0]) {
-	// 			case "debit":
-	// 				try {
-	// 					boolean flag = currentAC.debit(Double.parseDouble(tokens[1]));
-	// 					if (flag)
-	// 						System.out.println("After debit, " + currentAC);
-	// 				} catch(Exception ex) {
-	// 					System.out.println(ex.getMessage());
-	// 				}
-	// 				break;
-	// 			case "credit":
-	// 				try {
-	// 					boolean flag = currentAC.credit(Double.parseDouble(tokens[1]));
-	// 					if (flag)
-	// 						System.out.println("After credit, " + currentAC);
-	// 				} catch(Exception ex) {
-	// 					System.out.println(ex.getMessage());
-	// 				}
-	// 				break;
-    //             default:
-    //                 break;
-    //         }
-    //     }
-    //     scan.close();
-    // }
-
-
-	// /**
-	//  * The main method is used to test this Savings Account class.
-	//  * @param checkAC We are passing Current Accout Object
-	//  * @param scan We are passing Current Accout Object
-	//  */
-
-    // public static void testCheckingAccount(CheckingAccount checkAC, Scanner scan) {
-    //     while (scan.hasNextLine()) {
-    //         String tokens[] = scan.nextLine().split(" ");
-    //         switch (tokens[0]) {
-	// 			case "debit":
-	// 				try {
-	// 					boolean flag = checkAC.debit(Double.parseDouble(tokens[1]));
-	// 					if (flag)
-	// 						System.out.println("After debit, " + checkAC);
-	// 				} catch(Exception ex) {
-	// 					System.out.println(ex.getMessage());
-	// 				}
-	// 				break;
-	// 			case "credit":
-	// 				try {
-	// 					boolean flag = checkAC.credit(Double.parseDouble(tokens[1]));
-	// 					if (flag)
-	// 						System.out.println("After credit, " + checkAC);
-	// 				} catch(Exception ex) {
-	// 					System.out.println(ex.getMessage());
-	// 				}
-	// 				break;
-    //             default:
-    //                 break;
-    //         }
-    //     }
-    //     scan.close();
-    // }
 }

@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.Arrays;
 import java.text.DecimalFormat;
 /**
  * This file represents Savings Account

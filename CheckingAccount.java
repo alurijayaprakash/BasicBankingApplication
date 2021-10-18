@@ -1,13 +1,10 @@
 import java.util.Scanner;
-import java.util.Arrays;
 import java.text.DecimalFormat;
 /**
  * This file represents CheckingAccount
  * 
  * @author Jayaprkash Aluri
  * @version 1.1
- * @author Anurag
- * @author Chandu
  */
 public class CheckingAccount extends Account {
 	public static final double fees = 100.0;

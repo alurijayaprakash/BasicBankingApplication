@@ -3,8 +3,7 @@
  * This exception will be thrown when the amount is not sufficient to 
  * withdraw or debit from a particular Account.
  * 
- * @author N. D. V. Siva Sankar.
- * @author <Student Name>
+ * @author Jayaprakash Aluri
  * 
  * @version 1.0
  */

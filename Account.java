@@ -1,13 +1,9 @@
-import java.util.Scanner;
-import java.util.Arrays;
 /**
  * 
  * The Account class performs the basic operations such as deposit the amount 
  * (credit) and withdraw the amount (debit) to a particular account.
  * 
- * @author Sridevi. K.
- * @author N. D. V. Siva Sankar
- * @author <Jayapraaksh Aluri>
+ * @author Jayapraaksh Aluri
  * 
  * @version 1.0
  */
@@ -65,61 +61,7 @@ public abstract class Account implements AccountInterface {
     InvalidAmountException;
     public abstract boolean credit (double amount) throws InvalidAmountException;
 
-	/**
-	 * This method performs to debit the amount on this Account.
-	 * 
-	 * @param amount to debit
-	 * 
-	 * @return true on successfully debited the amount.
-	 * 
-	 * @exception throw an exception called InsufficientFundsException if the
-	 * amount in this Account is less than the amount to be debited with a message
-	 * "Insufficient funds to withdraw the amount."
-	 * 
-	 * @exception throw an exception called InvalidAmountException if the amount 
-	 * is <= 0 with a message "Amount can't be negative or 0.".
-	 * 
-	 * The above two exceptions are user defined exceptions. Define the sepaeate 
-	 * classes for those exceptions in separate files.
-	 */
-	// public boolean debit(double amount) throws InsufficientFundsException, 
-	// 		InvalidAmountException {
-	// 	//	Your code goes here...
-	// 	if (amount <= this.amount){
-	// 		this.amount = this.amount - amount;
-	// 		return true;
-	// 	}
-	// 	else if (amount <= 0) {
-	// 		throw new InvalidAmountException("Amount can't be negative or 0.");
-	// 	}
-	// 	else if (amount > this.amount){
-	// 		throw new InsufficientFundsException("Insufficient funds to withdraw the amount.");
-	// 	}
-	// 	return false;
-	// }
-
-	/**
-	 * Credit the amount to this Account.
-	 * 
-	 * @param amount to credit to this Account.
-	 * 
-	 * @return true on successfully the amount is credited to this Account.
-	 * 
-	 * @exception throw an exception InvalidAmountException if the amount 
-	 * (parameter) is <= 0 with a message "Amount can't be negative or 0.".
-	//  */
-	// public boolean credit(double amount) throws InvalidAmountException {
-	// 	//	Your code goes here...
-	// 	if (amount <= 0){
-	// 		throw new InvalidAmountException("Amount can't be negative or 0.");
-	// 		// return false;
-	// 	}
-	// 	else{
-	// 		this.amount = this.amount + amount;
-	// 		return true;
-	// 	}
-		
-	// }
+	
 
 	/**
 	 * This method returns the String version of the object.
@@ -131,55 +73,6 @@ public abstract class Account implements AccountInterface {
 		return  "Account Number: " + this.accountNumber + " and balance in your account is: "+ this.amount;
 	}
 
-	/**
-	 * The main method is used to test this Account class.
-	 * 
-	 * @param args the command line arguments. No need to pass any command line 
-	 * arguments at the time of executing this program.
-	 */
-	// public static void main(String[] args) {
-	// 	Scanner scan = new Scanner(System.in);
-
-	// 	Account account = new Account(0.0);
-
-	// 	while (scan.hasNextLine()) {
-	// 		String tokens[] = scan.nextLine().split(" ");
-	// 		switch (tokens[0]) {
-	// 			case "account":
-	// 				tokens = tokens[1].split(",");
-	// 				if (tokens.length == 1)
-	// 					account = new Account(Double.parseDouble(tokens[1]));
-	// 				else {
-	// 					account = new Account(
-	// 						tokens[0], tokens[1], tokens[2], tokens[3], tokens[5],
-	// 						tokens[5], Double.parseDouble(tokens[6]));
-	// 				}
-	// 				System.out.println("Account created and " + account);
-	// 				break;
-	// 			case "debit":
-	// 				try {
-	// 					boolean flag = account.debit(Double.parseDouble(tokens[1]));
-	// 					if (flag)
-	// 						System.out.println("After debit, " + account);
-	// 				} catch(Exception ex) {
-	// 					System.out.println(ex.getMessage());
-	// 				}
-	// 				break;
-	// 			case "credit":
-	// 				try {
-	// 					boolean flag = account.credit(Double.parseDouble(tokens[1]));
-	// 					if (flag)
-	// 						System.out.println("After credit, " + account);
-	// 				} catch(Exception ex) {
-	// 					System.out.println(ex.getMessage());
-	// 				}
-	// 				break;
-	// 			default:
-	// 				break;
-	// 		}
-	// 	}
-	// 	scan.close();
-	// }
 
 	/**
 	 * This method returns the balance amount from this Account.

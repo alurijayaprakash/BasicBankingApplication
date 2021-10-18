@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.Arrays;
 import java.text.DecimalFormat;
 /**
  * This file represents CurrentAccount
@@ -7,8 +6,6 @@ import java.text.DecimalFormat;
  * (credit) and withdraw the amount (debit) to a particular account. it has overdraft fecility
  * 
  * @author Jayaprkash Aluri
- * @author Sai Chandu P
- * @author Anurag Ch
  * @version 1.1
  */
 public class CurrentAccount extends Account {

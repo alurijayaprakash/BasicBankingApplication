@@ -3,8 +3,7 @@
  * This exception will be thrown when the amount is less than or equal to 0 
  * when the credit and debit operations are performed on an Account.
  * 
- * @author N. D. V. Siva Sankar.
- * @author <Student Name>
+ * @author Jayaprakash Aluri
  * 
  * @version 1.0
  */
